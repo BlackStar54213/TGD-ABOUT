@@ -1,0 +1,450 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    position: fixed;
+    width: 99%;
+    text-align: right;
+    background-color: white;
+    padding: 18px;
+    box-shadow: 0px 10px 26px rgb(145, 145, 145);
+    margin-bottom: 40px;
+    padding-right: 50px;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav a:last-child {
+    margin-right: 30px;
+}
+
+.logo {
+    position: fixed;
+    top: 0.3%;
+    width: 18%;
+    font-size: 22px;
+    text-align: left;
+    border: 2px black solid;
+    padding: 4px;
+    user-select: none;
+}
+
+.logo:hover {
+    border: 2px orange solid;
+    color: orange;
+    transform: rotate(360deg);
+    transition: all .4s;
+}
+
+nav a:hover {
+    transition: ease-in-out .4s;
+    padding-bottom: 3px;
+    border-bottom: 3px orange solid;
+}
+
+header {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10%;
+    padding-top: 140px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+
+    font-size: 45px;
+
+
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.textbtn {
+    width: 45%;
+    margin-left: 04%;
+    margin-top: 80px;
+}
+
+.textbtn button {
+    margin-top: 20px;
+    margin-left: 35%;
+    background-color: orange;
+    border-radius: 15px;
+    display: flex;
+    color: white;
+    font-size: 16px;
+    column-gap: 5px;
+    font-weight: 600;
+    width: 150px;
+    padding: 10px;
+}
+
+.textbtn button:hover {
+    background-color: white;
+    border: orange solid 3px;
+    color: orange;
+}
+
+.textbtn img {
+    height: 0.5cm;
+    transform: rotate(90deg);
+}
+
+header img {
+    height: 11cm;
+    border-radius: 13px;
+    margin-right: 2%;
+    box-shadow: 0px 10px 26px rgb(145, 145, 145);
+}
+
+header h2 {
+    float: right;
+}
+
+header img:hover {
+    box-shadow: 0px 10px 46px rgb(0, 0, 0);
+    transition: all .6s;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 130px;
+    width: 92%;
+    color: white;
+    background: #282828;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 100px;
+}
+
+footer input {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+}
+
+footer button {
+    padding: 11px;
+    border-radius: 15px;
+    margin-left: -30px;
+    border: none;
+    background-color: #FFA544;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+footer h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+footer li {
+    list-style: none;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: #FFA544;
+}
+
+.totop {
+    position: fixed;
+    top: 600px;
+    left: 93%;
+    height: 1cm;
+    width: 1cm;
+    background-color: #BF3E34;
+    padding: 10px;
+    display: none;
+}
+
+.intro {
+    font-size: 24px;
+    background-color: #f7f7f7;
+    padding: 50px;
+    margin-top: 90px;
+}
+
+.intro h3 {
+    margin-left: 35%;
+    font-size: 35px;
+}
+
+.intro p {
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.images {
+    margin-top: 10px;
+    margin-left: 1%;
+    width: 99%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.images img {
+    height: 8cm;
+    border-radius: 13px;
+    margin-right: 2%;
+    box-shadow: 0px 10px 26px rgb(145, 145, 145);
+}
+
+
+
+.investor {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    background-color: #f7f7f7;
+    padding: 50px;
+    margin-top: 90px;
+}
+
+.investor h3 {
+    margin-left: 35%;
+    font-size: 35px;
+}
+
+.investor p {
+    text-align: left;
+    margin-left: 25%;
+    width: 70%;
+    margin-right: 10%;
+    padding: 10px;
+}
+
+.investor button {
+    text-align: center;
+    margin-left: 25%;
+    background-color: #FFA544;
+    color: white;
+    font-weight: 600;
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 10%;
+    padding: 10px;
+}
+
+.investor button:hover {
+    background-color: white;
+    color: orange;
+    font-size: 20px;
+    transition: all .6s;
+}
+
+.investor img {
+    height: 8cm;
+    width: 8cm;
+    margin-left: 10%;
+    border-radius: 13px;
+    margin-right: 2%;
+    box-shadow: 0px 10px 26px rgb(145, 145, 145);
+}
+
+
+
+.imgtext p {
+    width: 90%;
+    background-color: rgb(218, 218, 218);
+    color: white;
+    height: 100px;
+    margin-top: -305px;
+    opacity: 0.002;
+    padding-top: 80px;
+    margin-bottom: 200px;
+    border-radius: 13px;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.imgtext p:hover {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 200px;
+    margin-bottom: 0px;
+    opacity: 0.8;
+    transition: ease-in-out 0.9s;
+}
+
+.imgtext {
+    margin-right: 15px;
+}
+
+.imgtext a {
+    text-decoration: none;
+    background-color: orange;
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    border: #282828 solid 2px;
+}
+
+.imgtext span {
+    padding: 20px;
+}
+
+.execs {
+    font-size: 24px;
+    background-color: #f7f7f7;
+    padding: 50px;
+    margin-top: 90px;
+}
+
+.execs h3 {
+    margin-left: 5%;
+    font-size: 35px;
+}
+
+.execs p {
+    margin-left: 5%;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+}
+
+.container {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: orange;
+    text-align: center;
+    margin-top: -200px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container img {
+    margin-top: -80px;
+    margin-left: 120px;
+    border: 4px solid white;
+    border-radius: 50%;
+    height: 3cm;
+    width: 3cm;
+}
+
+.container P {
+    width: 100%;
+}
+
+.container button {
+    background-color: #f7f7f7;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid blueviolet;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.media img {
+    height: 1cm;
+    width: 1cm;
+}
+
+@media only screen and (max-width:503px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .logo:hover {
+        border: 2px orange solid;
+        color: orange;
+        background-color: white;
+        transform: rotate(360deg);
+        transition: all .4s;
+    }
+
+    .intro p,
+    .investor p,
+    .execs p {
+        width: 90%;
+        text-align: left;
+        margin-left: 0%;
+    }
+
+    .intro h3,
+    .investor h3,
+    .execs h3 {
+        margin: 0%;
+        margin-top: 50px;
+    }
+
+    body {
+        width: auto
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .logo {
+        background-color: orange;
+        color: white;
+        top: 10%;
+        width: auto;
+        left: 25%;
+    }
+
+    .textbtn {
+        margin-top: 50px;
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .intro h3 {
+        margin: 0%;
+        width: 70%;
+    }
+
+    .investor {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .investor button {
+        margin-left: 0%;
+    }
+
+    .intro,
+    .investor,
+    .execs {
+        width: 100%;
+    }
+
+    .container {
+        margin-top: 80px;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-left: 0%;
+    }
+}
