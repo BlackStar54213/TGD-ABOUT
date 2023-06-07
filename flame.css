@@ -363,7 +363,7 @@ footer a:hover {
     width: 1cm;
 }
 
-@media only screen and (max-width:503px) {
+@media only screen and (max-width:450px) {
     * {
         margin: 0%;
         padding: 0%;
